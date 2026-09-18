@@ -2,7 +2,7 @@
 
 ## Peer-to-Peer Student Skill Exchange Platform
 
-SkillSwap is a Java-based platform that helps students exchange skills with their peers. Students can list the skills they can teach and the skills they want to learn, find suitable matches, create exchange requests, schedule learning sessions, and provide feedback.
+SkillSwap is a student-friendly platform where students can share the skills they know and learn new skills from their peers. It connects students based on the skills they can teach and the skills they want to learn.
 
 ## Features
 
@@ -42,21 +42,30 @@ SkillSwap/
 ├── statement.md
 ├── pom.xml
 └── .gitignore
-
+```
 
 ## How to Run
 
+### Requirements
+
+- Java 21
+- Maven
+
+### Commands
+
 ```bash
 mvn clean compile
-mvn exec:java```
+mvn exec:java
+```
 
-Testing
+## Testing
 
 The project was tested for user management, skill management, skill matching, exchange requests, session scheduling, ratings, and database connectivity.
 
-Result: SKILLSWAP DEMO COMPLETED SUCCESSFULLY
+**Result:** SKILLSWAP DEMO COMPLETED SUCCESSFULLY
 
 ## Author
 
-Name: Srishti 
-GitHub: https://github.com/srishtighoshh/SkillSwap
+**Name:** Srishti
+
+**GitHub:** https://github.com/srishtighoshh/SkillSwap
